@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Data (raw files are large - download separately)
+data/raw/
+data/processed/
+!data/processed/sample/
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Logs
+*.log
