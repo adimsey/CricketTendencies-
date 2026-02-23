@@ -403,6 +403,7 @@ def generate_bowler_data(bowler, fmt_key):
         phases[ph] = {
             "economy": eco,
             "wickets": wkts,
+            "average": round(eco * random.uniform(6, 10), 2),
             "boundary_pct": round(random.uniform(8, 18), 1),
             "dot_pct": round(random.uniform(35, 55), 1),
         }

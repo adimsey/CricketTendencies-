@@ -86,8 +86,8 @@ export default function BowlerProfile({ data }: Props) {
         </Card>
       </Section>
 
-      {/* Economy by phase */}
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20, marginBottom: 32 }}>
+      {/* Economy / Wickets / Average by phase */}
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20, marginBottom: 32 }}>
         <Card>
           <h3 style={{ fontSize: 12, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.06em', color: '#64748b', marginBottom: 12 }}>
             Economy by Phase
@@ -99,6 +99,12 @@ export default function BowlerProfile({ data }: Props) {
             Wickets by Phase
           </h3>
           <PhaseChart phases={phases} metric="wickets" label="Wickets" color="#22c55e" />
+        </Card>
+        <Card>
+          <h3 style={{ fontSize: 12, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.06em', color: '#64748b', marginBottom: 12 }}>
+            Average by Phase
+          </h3>
+          <PhaseChart phases={phases} metric="average" label="Average" color="#f59e0b" benchmarkLine={stats.average ?? undefined} />
         </Card>
       </div>
 

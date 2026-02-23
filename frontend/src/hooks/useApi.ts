@@ -1,5 +1,12 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import type { Team, PlayerData, Format, Role } from '../types/cricket';
+
+export interface SearchResult {
+  name: string;
+  team: string;
+  format: string;
+  role: string;
+}
 
 const API = '/api';
 
@@ -32,6 +39,33 @@ export function usePlayers(team: string, format: Format | '', role: Role | '') {
   }, [team, format, role]);
 
   return { players, loading };
+}
+
+export function usePlayerSearch(q: string, format: Format | '', role: Role | '') {
+  const [results, setResults] = useState<SearchResult[]>([]);
+  const [loading, setLoading] = useState(false);
+  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    if (timerRef.current) clearTimeout(timerRef.current);
+    if (!q || q.length < 2) { setResults([]); return; }
+
+    timerRef.current = setTimeout(() => {
+      setLoading(true);
+      const params = new URLSearchParams({ q });
+      if (format) params.set('format', format);
+      if (role) params.set('role', role);
+      fetch(`${API}/search?${params}`)
+        .then(r => r.json())
+        .then(d => setResults(d.results || []))
+        .catch(() => setResults([]))
+        .finally(() => setLoading(false));
+    }, 300);
+
+    return () => { if (timerRef.current) clearTimeout(timerRef.current); };
+  }, [q, format, role]);
+
+  return { results, loading };
 }
 
 export function usePlayerData(name: string, format: Format | '', role: Role | '') {

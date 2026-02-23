@@ -1,4 +1,4 @@
-export type Format = 'tests' | 'odis' | 't20is' | 'ipl';
+export type Format = 'tests' | 'odis' | 't20is' | 'ipl' | 'bbl' | 'psl';
 export type Role = 'batter' | 'bowler';
 
 export interface Team {
@@ -92,6 +92,8 @@ export const FORMAT_LABELS: Record<Format, string> = {
   odis: 'ODIs',
   t20is: 'T20Is',
   ipl: 'IPL',
+  bbl: 'BBL',
+  psl: 'PSL',
 };
 
 export const PHASE_LABELS: Record<string, string> = {
