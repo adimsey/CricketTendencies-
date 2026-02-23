@@ -1,0 +1,130 @@
+{
+  "name": "Ben Stokes",
+  "team": "England",
+  "country": "gb",
+  "format": "tests",
+  "role": "batter",
+  "stats": {
+    "runs": 6469,
+    "innings": 169,
+    "dismissals": 147,
+    "not_outs": 22,
+    "average": 36.56,
+    "strike_rate": 58.4,
+    "hundreds": 13,
+    "fifties": 30,
+    "fours": 738,
+    "sixes": 150,
+    "boundary_pct": 47.6,
+    "dot_pct": 33.6
+  },
+  "phases": {
+    "first_session": {
+      "average": 38.2,
+      "strike_rate": 52.8,
+      "boundary_pct": 9.5,
+      "dot_pct": 48.0
+    },
+    "second_session": {
+      "average": 40.5,
+      "strike_rate": 61.4,
+      "boundary_pct": 8.4,
+      "dot_pct": 45.1
+    },
+    "third_session": {
+      "average": 35.8,
+      "strike_rate": 72.5,
+      "boundary_pct": 8.9,
+      "dot_pct": 39.7
+    }
+  },
+  "dismissals_breakdown": {
+    "caught": 68,
+    "lbw": 24,
+    "bowled": 32,
+    "run out": 10,
+    "stumped": 4,
+    "hit wicket": 3
+  },
+  "wagon_wheel": [
+    {
+      "zone": "fine_leg",
+      "runs": 518,
+      "fours": 59,
+      "sixes": 12,
+      "angle": -160
+    },
+    {
+      "zone": "square_leg",
+      "runs": 841,
+      "fours": 96,
+      "sixes": 20,
+      "angle": -120
+    },
+    {
+      "zone": "midwicket",
+      "runs": 1164,
+      "fours": 133,
+      "sixes": 27,
+      "angle": -80
+    },
+    {
+      "zone": "mid_on",
+      "runs": 518,
+      "fours": 59,
+      "sixes": 12,
+      "angle": -40
+    },
+    {
+      "zone": "straight",
+      "runs": 323,
+      "fours": 37,
+      "sixes": 8,
+      "angle": 0
+    },
+    {
+      "zone": "mid_off",
+      "runs": 647,
+      "fours": 74,
+      "sixes": 15,
+      "angle": 40
+    },
+    {
+      "zone": "cover",
+      "runs": 1035,
+      "fours": 118,
+      "sixes": 24,
+      "angle": 80
+    },
+    {
+      "zone": "point",
+      "runs": 906,
+      "fours": 103,
+      "sixes": 21,
+      "angle": 120
+    },
+    {
+      "zone": "third_man",
+      "runs": 518,
+      "fours": 59,
+      "sixes": 12,
+      "angle": 160
+    }
+  ],
+  "vs_pace": {
+    "average": 37.14,
+    "strike_rate": 57.89
+  },
+  "vs_spin": {
+    "average": 38.13,
+    "strike_rate": 58.89
+  },
+  "vs_left_arm": {
+    "average": 33.5,
+    "strike_rate": 57.53
+  },
+  "vs_right_arm": {
+    "average": 39.02,
+    "strike_rate": 60.13
+  }
+}

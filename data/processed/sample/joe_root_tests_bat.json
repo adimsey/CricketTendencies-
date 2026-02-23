@@ -1,0 +1,130 @@
+{
+  "name": "Joe Root",
+  "team": "England",
+  "country": "gb",
+  "format": "tests",
+  "role": "batter",
+  "stats": {
+    "runs": 12617,
+    "innings": 253,
+    "dismissals": 225,
+    "not_outs": 28,
+    "average": 50.64,
+    "strike_rate": 56.2,
+    "hundreds": 35,
+    "fifties": 65,
+    "fours": 1524,
+    "sixes": 67,
+    "boundary_pct": 41.2,
+    "dot_pct": 25.4
+  },
+  "phases": {
+    "first_session": {
+      "average": 52.8,
+      "strike_rate": 44.5,
+      "boundary_pct": 7.7,
+      "dot_pct": 49.3
+    },
+    "second_session": {
+      "average": 56.2,
+      "strike_rate": 57.8,
+      "boundary_pct": 9.8,
+      "dot_pct": 45.9
+    },
+    "third_session": {
+      "average": 45.8,
+      "strike_rate": 65.4,
+      "boundary_pct": 7.8,
+      "dot_pct": 41.9
+    }
+  },
+  "dismissals_breakdown": {
+    "caught": 95,
+    "lbw": 52,
+    "bowled": 45,
+    "run out": 15,
+    "stumped": 8,
+    "hit wicket": 3
+  },
+  "wagon_wheel": [
+    {
+      "zone": "fine_leg",
+      "runs": 757,
+      "fours": 91,
+      "sixes": 4,
+      "angle": -160
+    },
+    {
+      "zone": "square_leg",
+      "runs": 1388,
+      "fours": 168,
+      "sixes": 7,
+      "angle": -120
+    },
+    {
+      "zone": "midwicket",
+      "runs": 1766,
+      "fours": 213,
+      "sixes": 9,
+      "angle": -80
+    },
+    {
+      "zone": "mid_on",
+      "runs": 1388,
+      "fours": 168,
+      "sixes": 7,
+      "angle": -40
+    },
+    {
+      "zone": "straight",
+      "runs": 1262,
+      "fours": 152,
+      "sixes": 7,
+      "angle": 0
+    },
+    {
+      "zone": "mid_off",
+      "runs": 1514,
+      "fours": 183,
+      "sixes": 8,
+      "angle": 40
+    },
+    {
+      "zone": "cover",
+      "runs": 2271,
+      "fours": 274,
+      "sixes": 12,
+      "angle": 80
+    },
+    {
+      "zone": "point",
+      "runs": 1514,
+      "fours": 183,
+      "sixes": 8,
+      "angle": 120
+    },
+    {
+      "zone": "third_man",
+      "runs": 757,
+      "fours": 91,
+      "sixes": 4,
+      "angle": 160
+    }
+  ],
+  "vs_pace": {
+    "average": 54.99,
+    "strike_rate": 57.85
+  },
+  "vs_spin": {
+    "average": 56.53,
+    "strike_rate": 55.16
+  },
+  "vs_left_arm": {
+    "average": 45.06,
+    "strike_rate": 59.46
+  },
+  "vs_right_arm": {
+    "average": 54.34,
+    "strike_rate": 53.87
+  }
+}

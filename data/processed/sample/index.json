@@ -1,0 +1,205 @@
+{
+  "India": {
+    "tests": {
+      "batters": [
+        "Virat Kohli",
+        "Rohit Sharma"
+      ],
+      "bowlers": [
+        "Jasprit Bumrah"
+      ]
+    },
+    "odis": {
+      "batters": [
+        "Virat Kohli",
+        "Rohit Sharma"
+      ],
+      "bowlers": [
+        "Jasprit Bumrah"
+      ]
+    },
+    "t20is": {
+      "batters": [
+        "Virat Kohli",
+        "Rohit Sharma"
+      ],
+      "bowlers": [
+        "Jasprit Bumrah"
+      ]
+    },
+    "ipl": {
+      "batters": [
+        "Virat Kohli",
+        "Rohit Sharma"
+      ],
+      "bowlers": [
+        "Jasprit Bumrah"
+      ]
+    }
+  },
+  "Australia": {
+    "tests": {
+      "batters": [
+        "Steve Smith",
+        "David Warner"
+      ],
+      "bowlers": [
+        "Pat Cummins"
+      ]
+    },
+    "odis": {
+      "batters": [
+        "Steve Smith",
+        "David Warner"
+      ],
+      "bowlers": [
+        "Pat Cummins"
+      ]
+    },
+    "t20is": {
+      "batters": [
+        "Steve Smith",
+        "David Warner"
+      ],
+      "bowlers": [
+        "Pat Cummins"
+      ]
+    },
+    "ipl": {
+      "batters": [
+        "Steve Smith",
+        "David Warner"
+      ],
+      "bowlers": [
+        "Pat Cummins"
+      ]
+    }
+  },
+  "England": {
+    "tests": {
+      "batters": [
+        "Joe Root",
+        "Ben Stokes"
+      ],
+      "bowlers": [
+        "James Anderson"
+      ]
+    },
+    "odis": {
+      "batters": [
+        "Joe Root",
+        "Ben Stokes"
+      ],
+      "bowlers": [
+        "James Anderson"
+      ]
+    },
+    "t20is": {
+      "batters": [
+        "Joe Root",
+        "Ben Stokes"
+      ],
+      "bowlers": [
+        "James Anderson"
+      ]
+    },
+    "ipl": {
+      "batters": [
+        "Ben Stokes"
+      ],
+      "bowlers": []
+    }
+  },
+  "New Zealand": {
+    "tests": {
+      "batters": [
+        "Kane Williamson"
+      ],
+      "bowlers": [
+        "Trent Boult"
+      ]
+    },
+    "odis": {
+      "batters": [
+        "Kane Williamson"
+      ],
+      "bowlers": [
+        "Trent Boult"
+      ]
+    },
+    "t20is": {
+      "batters": [
+        "Kane Williamson"
+      ],
+      "bowlers": [
+        "Trent Boult"
+      ]
+    },
+    "ipl": {
+      "batters": [
+        "Kane Williamson"
+      ],
+      "bowlers": [
+        "Trent Boult"
+      ]
+    }
+  },
+  "Pakistan": {
+    "tests": {
+      "batters": [
+        "Babar Azam"
+      ],
+      "bowlers": [
+        "Shaheen Afridi"
+      ]
+    },
+    "odis": {
+      "batters": [
+        "Babar Azam"
+      ],
+      "bowlers": [
+        "Shaheen Afridi"
+      ]
+    },
+    "t20is": {
+      "batters": [
+        "Babar Azam"
+      ],
+      "bowlers": [
+        "Shaheen Afridi"
+      ]
+    },
+    "ipl": {
+      "batters": [],
+      "bowlers": [
+        "Shaheen Afridi"
+      ]
+    }
+  },
+  "South Africa": {
+    "tests": {
+      "batters": [],
+      "bowlers": [
+        "Kagiso Rabada"
+      ]
+    },
+    "odis": {
+      "batters": [],
+      "bowlers": [
+        "Kagiso Rabada"
+      ]
+    },
+    "t20is": {
+      "batters": [],
+      "bowlers": [
+        "Kagiso Rabada"
+      ]
+    },
+    "ipl": {
+      "batters": [],
+      "bowlers": [
+        "Kagiso Rabada"
+      ]
+    }
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "name": "Trent Boult",
+  "team": "New Zealand",
+  "country": "nz",
+  "format": "tests",
+  "role": "bowler",
+  "stats": {
+    "overs": 1980.5,
+    "wickets": 317,
+    "runs_conceded": 5855,
+    "economy": 2.96,
+    "average": 27.74,
+    "strike_rate": 56.2
+  },
+  "phases": {
+    "first_session": {
+      "economy": 2.85,
+      "wickets": 16,
+      "boundary_pct": 15.5,
+      "dot_pct": 40.9
+    },
+    "second_session": {
+      "economy": 3.0,
+      "wickets": 11,
+      "boundary_pct": 8.5,
+      "dot_pct": 53.0
+    },
+    "third_session": {
+      "economy": 3.12,
+      "wickets": 18,
+      "boundary_pct": 17.5,
+      "dot_pct": 44.9
+    }
+  },
+  "wicket_types": {
+    "caught": 130,
+    "lbw": 55,
+    "bowled": 98,
+    "caught & bowled": 25,
+    "stumped": 4
+  },
+  "pitch_map": [
+    {
+      "length": "full_toss",
+      "line": "wide_outside_off",
+      "balls": 334,
+      "wickets": 10,
+      "economy": 6.19
+    },
+    {
+      "length": "full_toss",
+      "line": "outside_off",
+      "balls": 497,
+      "wickets": 32,
+      "economy": 5.17
+    },
+    {
+      "length": "full_toss",
+      "line": "off_stump",
+      "balls": 273,
+      "wickets": 7,
+      "economy": 7.67
+    },
+    {
+      "length": "full_toss",
+      "line": "middle_stump",
+      "balls": 50,
+      "wickets": 0,
+      "economy": 7.91
+    },
+    {
+      "length": "full_toss",
+      "line": "leg_stump",
+      "balls": 229,
+      "wickets": 4,
+      "economy": 7.02
+    },
+    {
+      "length": "full_toss",
+      "line": "outside_leg",
+      "balls": 172,
+      "wickets": 5,
+      "economy": 7.26
+    },
+    {
+      "length": "yorker",
+      "line": "wide_outside_off",
+      "balls": 251,
+      "wickets": 7,
+      "economy": 7.23
+    },
+    {
+      "length": "yorker",
+      "line": "outside_off",
+      "balls": 427,
+      "wickets": 24,
+      "economy": 4.82
+    },
+    {
+      "length": "yorker",
+      "line": "off_stump",
+      "balls": 10,
+      "wickets": 1,
+      "economy": 7.86
+    },
+    {
+      "length": "yorker",
+      "line": "middle_stump",
+      "balls": 292,
+      "wickets": 8,
+      "economy": 6.57
+    },
+    {
+      "length": "yorker",
+      "line": "leg_stump",
+      "balls": 134,
+      "wickets": 5,
+      "economy": 7.42
+    },
+    {
+      "length": "yorker",
+      "line": "outside_leg",
+      "balls": 460,
+      "wickets": 12,
+      "economy": 6.82
+    },
+    {
+      "length": "full",
+      "line": "wide_outside_off",
+      "balls": 410,
+      "wickets": 23,
+      "economy": 5.38
+    },
+    {
+      "length": "full",
+      "line": "outside_off",
+      "balls": 549,
+      "wickets": 32,
+      "economy": 4.27
+    },
+    {
+      "length": "full",
+      "line": "off_stump",
+      "balls": 629,
+      "wickets": 37,
+      "economy": 6.23
+    },
+    {
+      "length": "full",
+      "line": "middle_stump",
+      "balls": 682,
+      "wickets": 39,
+      "economy": 5.82
+    },
+    {
+      "length": "full",
+      "line": "leg_stump",
+      "balls": 510,
+      "wickets": 32,
+      "economy": 5.48
+    },
+    {
+      "length": "full",
+      "line": "outside_leg",
+      "balls": 524,
+      "wickets": 31,
+      "economy": 4.3
+    },
+    {
+      "length": "good",
+      "line": "wide_outside_off",
+      "balls": 391,
+      "wickets": 13,
+      "economy": 5.62
+    },
+    {
+      "length": "good",
+      "line": "outside_off",
+      "balls": 562,
+      "wickets": 33,
+      "economy": 5.02
+    },
+    {
+      "length": "good",
+      "line": "off_stump",
+      "balls": 382,
+      "wickets": 12,
+      "economy": 6.8
+    },
+    {
+      "length": "good",
+      "line": "middle_stump",
+      "balls": 510,
+      "wickets": 15,
+      "economy": 6.81
+    },
+    {
+      "length": "good",
+      "line": "leg_stump",
+      "balls": 241,
+      "wickets": 6,
+      "economy": 8.16
+    },
+    {
+      "length": "good",
+      "line": "outside_leg",
+      "balls": 292,
+      "wickets": 8,
+      "economy": 6.85
+    },
+    {
+      "length": "short_of_good",
+      "line": "wide_outside_off",
+      "balls": 63,
+      "wickets": 2,
+      "economy": 5.97
+    },
+    {
+      "length": "short_of_good",
+      "line": "outside_off",
+      "balls": 600,
+      "wickets": 35,
+      "economy": 5.95
+    },
+    {
+      "length": "short_of_good",
+      "line": "off_stump",
+      "balls": 356,
+      "wickets": 11,
+      "economy": 6.9
+    },
+    {
+      "length": "short_of_good",
+      "line": "middle_stump",
+      "balls": 93,
+      "wickets": 2,
+      "economy": 6.99
+    },
+    {
+      "length": "short_of_good",
+      "line": "leg_stump",
+      "balls": 273,
+      "wickets": 7,
+      "economy": 6.23
+    },
+    {
+      "length": "short_of_good",
+      "line": "outside_leg",
+      "balls": 226,
+      "wickets": 8,
+      "economy": 8.5
+    },
+    {
+      "length": "short",
+      "line": "wide_outside_off",
+      "balls": 318,
+      "wickets": 8,
+      "economy": 8.13
+    },
+    {
+      "length": "short",
+      "line": "outside_off",
+      "balls": 473,
+      "wickets": 27,
+      "economy": 5.84
+    },
+    {
+      "length": "short",
+      "line": "off_stump",
+      "balls": 10,
+      "wickets": 1,
+      "economy": 6.96
+    },
+    {
+      "length": "short",
+      "line": "middle_stump",
+      "balls": 259,
+      "wickets": 6,
+      "economy": 7.68
+    },
+    {
+      "length": "short",
+      "line": "leg_stump",
+      "balls": 276,
+      "wickets": 7,
+      "economy": 7.76
+    },
+    {
+      "length": "short",
+      "line": "outside_leg",
+      "balls": 10,
+      "wickets": 0,
+      "economy": 6.91
+    }
+  ],
+  "vs_rhb": {
+    "economy": 4.55,
+    "wickets": 206
+  },
+  "vs_lhb": {
+    "economy": 4.75,
+    "wickets": 111
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "name": "Virat Kohli",
+  "team": "India",
+  "country": "in",
+  "format": "odis",
+  "role": "batter",
+  "stats": {
+    "runs": 13906,
+    "innings": 275,
+    "dismissals": 228,
+    "not_outs": 47,
+    "average": 58.07,
+    "strike_rate": 93.25,
+    "hundreds": 50,
+    "fifties": 72,
+    "fours": 1159,
+    "sixes": 145,
+    "boundary_pct": 31.7,
+    "dot_pct": 39.0
+  },
+  "phases": {
+    "powerplay": {
+      "average": 41.5,
+      "strike_rate": 85.2,
+      "boundary_pct": 13.0,
+      "dot_pct": 35.9
+    },
+    "middle": {
+      "average": 62.3,
+      "strike_rate": 91.5,
+      "boundary_pct": 14.1,
+      "dot_pct": 40.2
+    },
+    "death": {
+      "average": 48.8,
+      "strike_rate": 118.4,
+      "boundary_pct": 15.8,
+      "dot_pct": 33.5
+    }
+  },
+  "dismissals_breakdown": {
+    "caught": 68,
+    "lbw": 22,
+    "bowled": 31,
+    "run out": 8,
+    "stumped": 4,
+    "hit wicket": 2
+  },
+  "wagon_wheel": [
+    {
+      "zone": "fine_leg",
+      "runs": 973,
+      "fours": 81,
+      "sixes": 10,
+      "angle": -160
+    },
+    {
+      "zone": "square_leg",
+      "runs": 1391,
+      "fours": 116,
+      "sixes": 14,
+      "angle": -120
+    },
+    {
+      "zone": "midwicket",
+      "runs": 2503,
+      "fours": 209,
+      "sixes": 26,
+      "angle": -80
+    },
+    {
+      "zone": "mid_on",
+      "runs": 1669,
+      "fours": 139,
+      "sixes": 17,
+      "angle": -40
+    },
+    {
+      "zone": "straight",
+      "runs": 1112,
+      "fours": 93,
+      "sixes": 12,
+      "angle": 0
+    },
+    {
+      "zone": "mid_off",
+      "runs": 1947,
+      "fours": 162,
+      "sixes": 20,
+      "angle": 40
+    },
+    {
+      "zone": "cover",
+      "runs": 2225,
+      "fours": 185,
+      "sixes": 23,
+      "angle": 80
+    },
+    {
+      "zone": "point",
+      "runs": 1391,
+      "fours": 116,
+      "sixes": 14,
+      "angle": 120
+    },
+    {
+      "zone": "third_man",
+      "runs": 695,
+      "fours": 58,
+      "sixes": 7,
+      "angle": 160
+    }
+  ],
+  "vs_pace": {
+    "average": 56.21,
+    "strike_rate": 84.52
+  },
+  "vs_spin": {
+    "average": 66.28,
+    "strike_rate": 92.07
+  },
+  "vs_left_arm": {
+    "average": 52.02,
+    "strike_rate": 85.55
+  },
+  "vs_right_arm": {
+    "average": 61.56,
+    "strike_rate": 94.22
+  }
+}

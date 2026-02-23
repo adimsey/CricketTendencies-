@@ -1,0 +1,130 @@
+{
+  "name": "Steve Smith",
+  "team": "Australia",
+  "country": "au",
+  "format": "odis",
+  "role": "batter",
+  "stats": {
+    "runs": 4740,
+    "innings": 131,
+    "dismissals": 114,
+    "not_outs": 17,
+    "average": 42.12,
+    "strike_rate": 86.85,
+    "hundreds": 12,
+    "fifties": 29,
+    "fours": 377,
+    "sixes": 88,
+    "boundary_pct": 34.4,
+    "dot_pct": 30.3
+  },
+  "phases": {
+    "powerplay": {
+      "average": 35.8,
+      "strike_rate": 80.5,
+      "boundary_pct": 11.7,
+      "dot_pct": 44.0
+    },
+    "middle": {
+      "average": 48.3,
+      "strike_rate": 86.4,
+      "boundary_pct": 12.8,
+      "dot_pct": 36.0
+    },
+    "death": {
+      "average": 42.1,
+      "strike_rate": 105.8,
+      "boundary_pct": 14.9,
+      "dot_pct": 34.2
+    }
+  },
+  "dismissals_breakdown": {
+    "caught": 72,
+    "lbw": 35,
+    "bowled": 28,
+    "run out": 6,
+    "stumped": 3,
+    "hit wicket": 1
+  },
+  "wagon_wheel": [
+    {
+      "zone": "fine_leg",
+      "runs": 237,
+      "fours": 19,
+      "sixes": 4,
+      "angle": -160
+    },
+    {
+      "zone": "square_leg",
+      "runs": 427,
+      "fours": 34,
+      "sixes": 8,
+      "angle": -120
+    },
+    {
+      "zone": "midwicket",
+      "runs": 569,
+      "fours": 45,
+      "sixes": 11,
+      "angle": -80
+    },
+    {
+      "zone": "mid_on",
+      "runs": 474,
+      "fours": 38,
+      "sixes": 9,
+      "angle": -40
+    },
+    {
+      "zone": "straight",
+      "runs": 427,
+      "fours": 34,
+      "sixes": 8,
+      "angle": 0
+    },
+    {
+      "zone": "mid_off",
+      "runs": 569,
+      "fours": 45,
+      "sixes": 11,
+      "angle": 40
+    },
+    {
+      "zone": "cover",
+      "runs": 948,
+      "fours": 75,
+      "sixes": 18,
+      "angle": 80
+    },
+    {
+      "zone": "point",
+      "runs": 711,
+      "fours": 57,
+      "sixes": 13,
+      "angle": 120
+    },
+    {
+      "zone": "third_man",
+      "runs": 379,
+      "fours": 30,
+      "sixes": 7,
+      "angle": 160
+    }
+  ],
+  "vs_pace": {
+    "average": 42.83,
+    "strike_rate": 89.68
+  },
+  "vs_spin": {
+    "average": 43.38,
+    "strike_rate": 83.71
+  },
+  "vs_left_arm": {
+    "average": 44.21,
+    "strike_rate": 86.13
+  },
+  "vs_right_arm": {
+    "average": 40.51,
+    "strike_rate": 82.92
+  }
+}

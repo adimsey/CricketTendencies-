@@ -1,0 +1,130 @@
+{
+  "name": "Rohit Sharma",
+  "team": "India",
+  "country": "in",
+  "format": "ipl",
+  "role": "batter",
+  "stats": {
+    "runs": 6628,
+    "innings": 243,
+    "dismissals": 223,
+    "not_outs": 20,
+    "average": 31.17,
+    "strike_rate": 130.55,
+    "hundreds": 2,
+    "fifties": 44,
+    "fours": 636,
+    "sixes": 261,
+    "boundary_pct": 49.6,
+    "dot_pct": 36.1
+  },
+  "phases": {
+    "powerplay": {
+      "average": 45.2,
+      "strike_rate": 140.8,
+      "boundary_pct": 20.2,
+      "dot_pct": 27.6
+    },
+    "middle": {
+      "average": 35.8,
+      "strike_rate": 132.5,
+      "boundary_pct": 19.7,
+      "dot_pct": 26.1
+    },
+    "death": {
+      "average": 28.4,
+      "strike_rate": 158.2,
+      "boundary_pct": 25.6,
+      "dot_pct": 25.4
+    }
+  },
+  "dismissals_breakdown": {
+    "caught": 75,
+    "lbw": 28,
+    "bowled": 35,
+    "run out": 12,
+    "stumped": 5,
+    "hit wicket": 1
+  },
+  "wagon_wheel": [
+    {
+      "zone": "fine_leg",
+      "runs": 597,
+      "fours": 57,
+      "sixes": 23,
+      "angle": -160
+    },
+    {
+      "zone": "square_leg",
+      "runs": 928,
+      "fours": 89,
+      "sixes": 37,
+      "angle": -120
+    },
+    {
+      "zone": "midwicket",
+      "runs": 1193,
+      "fours": 114,
+      "sixes": 47,
+      "angle": -80
+    },
+    {
+      "zone": "mid_on",
+      "runs": 663,
+      "fours": 64,
+      "sixes": 26,
+      "angle": -40
+    },
+    {
+      "zone": "straight",
+      "runs": 530,
+      "fours": 51,
+      "sixes": 21,
+      "angle": 0
+    },
+    {
+      "zone": "mid_off",
+      "runs": 663,
+      "fours": 64,
+      "sixes": 26,
+      "angle": 40
+    },
+    {
+      "zone": "cover",
+      "runs": 928,
+      "fours": 89,
+      "sixes": 37,
+      "angle": 80
+    },
+    {
+      "zone": "point",
+      "runs": 795,
+      "fours": 76,
+      "sixes": 31,
+      "angle": 120
+    },
+    {
+      "zone": "third_man",
+      "runs": 331,
+      "fours": 32,
+      "sixes": 13,
+      "angle": 160
+    }
+  ],
+  "vs_pace": {
+    "average": 32.53,
+    "strike_rate": 118.32
+  },
+  "vs_spin": {
+    "average": 31.46,
+    "strike_rate": 145.4
+  },
+  "vs_left_arm": {
+    "average": 30.5,
+    "strike_rate": 130.24
+  },
+  "vs_right_arm": {
+    "average": 32.64,
+    "strike_rate": 124.77
+  }
+}
