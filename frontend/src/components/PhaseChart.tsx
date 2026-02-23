@@ -7,7 +7,7 @@ import { PHASE_LABELS } from '../types/cricket';
 
 interface Props {
   phases: Record<string, PhaseStats>;
-  metric: 'strike_rate' | 'average' | 'economy' | 'boundary_pct' | 'dot_pct';
+  metric: 'strike_rate' | 'average' | 'economy' | 'boundary_pct' | 'dot_pct' | 'wickets';
   label: string;
   color?: string;
   benchmarkLine?: number;
