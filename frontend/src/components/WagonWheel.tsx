@@ -73,9 +73,9 @@ export default function WagonWheel({ zones, animated = true }: Props) {
     zones.forEach((zone, i) => {
       if (zone.runs === 0) return;
       const color = ZONE_COLORS[i % ZONE_COLORS.length];
-      const zoneAngleWidth = 38;
-      const startAngle = (zone.angle - zoneAngleWidth / 2 - 90) * (Math.PI / 180);
-      const endAngle = (zone.angle + zoneAngleWidth / 2 - 90) * (Math.PI / 180);
+      const midDeg = (zone.angle_start + zone.angle_end) / 2;
+      const startAngle = (zone.angle_start - 90) * (Math.PI / 180);
+      const endAngle = (zone.angle_end - 90) * (Math.PI / 180);
       const lineR = pitchR + (R - pitchR) * Math.sqrt(zone.runs / maxRuns);
 
       // Fan/wedge
@@ -93,7 +93,7 @@ export default function WagonWheel({ zones, animated = true }: Props) {
         .attr('opacity', 0.18);
 
       // Spoke line
-      const midAngle = (zone.angle - 90) * (Math.PI / 180);
+      const midAngle = (midDeg - 90) * (Math.PI / 180);
       const line = g.append('line')
         .attr('x1', cx + pitchR * Math.cos(midAngle))
         .attr('y1', cy + pitchR * Math.sin(midAngle))

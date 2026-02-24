@@ -11,7 +11,8 @@ export interface WagonWheelZone {
   runs: number;
   fours: number;
   sixes: number;
-  angle: number;
+  angle_start: number;
+  angle_end: number;
 }
 
 export interface PitchMapCell {
